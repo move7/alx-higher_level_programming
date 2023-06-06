@@ -26,7 +26,9 @@ In this project, we will explore the concepts of conditionals and loops. We will
 <li><a href="https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt" title="Learn to Program 2 : Looping" target="_blank">Learn to Program 2 : Looping</a> </li>
 <li><a href="https://pypi.org/project/pycodestyle/" title="Pycodestyle -- Style Guide for Python Code" target="_blank">Pycodestyle – Style Guide for Python Code</a> </li>
 </ul>
+
 ## Mandatory tasks
+
 > **0. Positive anything is better than negative nothing:**
 * Create a Python script that assigns a random signed number to the variable "number" every time it is executed. Then, print whether the value stored in "number" is positive or negative. 
 
