@@ -5,9 +5,8 @@ last_digit = int(str(number)[-1])
 last_digit = -1 * last_digit if number < 0 else last_digit
 message = f"Last digit of {number} is {last_digit} and is "
 if(last_digit > 5):
-    message += "greater than 5"
+    print(message + "greater than 5")
 elif(last_digit == 0):
-    message += "0"
+    print(message + "0")
 elif(last_digit < 6 and last_digit != 0):
-    message += "less than 6 and not 0"
-print(message)
+   print( message + "less than 6 and not 0")
