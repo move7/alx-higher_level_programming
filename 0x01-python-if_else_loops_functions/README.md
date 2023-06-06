@@ -29,45 +29,33 @@ In this project, we will explore the concepts of conditionals and loops. We will
 ## Mandatory tasks
 > **0. Positive anything is better than negative nothing:**
 * Create a Python script that assigns a random signed number to the variable "number" every time it is executed. Then, print whether the value stored in "number" is positive or negative. 
-```
 
-```
 > **1. The last digit:**
 * Create a Python script that assigns a random signed number to the variable "number" every time it is executed. Then, print the last digit the number stored in "number" 
-```
 
-```
 > **2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game:**
 * Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 * Using only one print and one loop.
 * Storing characters in variables or importing modules not allowed.
-```
 
-```
 > **3. When I was having that alphabet soup, I never thought that it would pay off:**
 * Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 * Print all the letters except q and e
 * Use one print function with string format and one loop
 * Store characters in a variable or importing any module are not allowed
-```
 
-```
 > **4. Hexadecimal printing:**
 * Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal.
 * Use one loop and print function with string format.
 * Storing numbers or strings in a variable or importing any module are not allowed.
-```
 
-```
 > **5. 00...99**
 * Write a program that prints numbers from 0 to 99.
 * Numbers must be separated by ,, followed by a space and printed in ascending order, with two digits.
 * The last number should be followed by a new line.
 * Use a single loop and limit the use of print functions with string formatting to two.
 * Storing numbers or strings in a variable or importing any module are not allowed.
-```
 
-```
 > **6. Inventing is a combination of brains and materials. The more brains you use, the less material you need:**
 * Write a program that prints all possible different combinations of two digits.
 * Numbers must be separated by ,, followed by a space and the two digits must be different.
@@ -78,9 +66,7 @@ In this project, we will explore the concepts of conditionals and loops. We will
 *  Use no more than 2 loops and limit the use of print functions with string formatting to three.
 *  nly two loops and limits the use of print functions to three
 *  Storing numbers or strings in a variable or importing any module are not allowed.
-```
 
-```
 > **7. islower:**
 * Write a function that checks for lowercase character.
 * Prototype: def islower(c):
@@ -88,6 +74,3 @@ In this project, we will explore the concepts of conditionals and loops. We will
 * Not allowed to import any module and use str.upper() and str.isupper()
 * <li><a href="https://docs.python.org/3.4/library/functions.html?highlight=ord#ord" title="Learn to Program" target="_blank">Tips: ord()</a> </li>
 
-```
-
-```
