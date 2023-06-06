@@ -11,4 +11,4 @@ def fizzbuzz():
         else:
             result += str(i)
         result += " "
-    print(result + "Buzz ")
+    print(result + "Buzz")
