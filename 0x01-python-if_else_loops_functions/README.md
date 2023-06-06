@@ -63,8 +63,7 @@ In this project, we will explore the concepts of conditionals and loops. We will
 * Print only the smallest combination of two digits.
 * Numbers should be printed in ascending order, with two digits
 * The last number should be followed by a new line
-*  Use no more than 2 loops and limit the use of print functions with string formatting to three.
-*  nly two loops and limits the use of print functions to three
+*  Only two loops and limits the use of print functions to three
 *  Storing numbers or strings in a variable or importing any module are not allowed.
 
 > **7. islower:**
