@@ -8,6 +8,6 @@ if(last_digit < 6 and last_digit != 0):
     message += "less than 6 and not 0"
 elif(last_digit > 5):
     message += "greater than 5"
-else:
+elif(last_digit == 0):
     message += "0"
 print(message)
