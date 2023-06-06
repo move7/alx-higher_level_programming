@@ -9,13 +9,13 @@ By the end of this project, we will have a solid understanding of the fundamenta
 
 ## Resources
 <ul>
-<li><a href="/rltoken/JsFCs_NBzMAR7-XPAZ9BoA" title="The Python tutorial" target="_blank">The Python tutorial</a> (<em>only the first three chapters below</em>)</li>
-<li><a href="/rltoken/kifRlLG2iMX5AZiW8lrCMg" title="Whetting Your Appetite" target="_blank">Whetting Your Appetite</a> </li>
-<li><a href="/rltoken/RVpfAuagCo9SdfYeoHd6jg" title="Using the Python Interpreter" target="_blank">Using the Python Interpreter</a> </li>
-<li><a href="/rltoken/bVps0ZPWq7qVZ7vc-eJGTw" title="An Informal Introduction to Python" target="_blank">An Informal Introduction to Python</a> (<em>Read up until “3.1.2. Strings” included</em>)</li>
-<li><a href="/rltoken/Ju0J8BxkuPX5yKZctyKfsQ" title="How To Use String Formatters in Python 3" target="_blank">How To Use String Formatters in Python 3</a> </li>
-<li><a href="/rltoken/szBsJ-Qyig_RrImN7RGlOg" title="Learn to Program" target="_blank">Learn to Program</a> </li>
-<li><a href="/rltoken/tgYt-0zVy1T4sDlE9ohxnA" title="Pycodestyle -- Style Guide for Python Code" target="_blank">Pycodestyle – Style Guide for Python Code</a> </li>
+<li><a href="https://docs.python.org/3/tutorial/index.html" title="The Python tutorial" target="_blank">The Python tutorial</a> (<em>only the first three chapters below</em>)</li>
+<li><a href="https://docs.python.org/3/tutorial/appetite.html" title="Whetting Your Appetite" target="_blank">Whetting Your Appetite</a> </li>
+<li><a href="https://docs.python.org/3/tutorial/interpreter.html" title="Using the Python Interpreter" target="_blank">Using the Python Interpreter</a> </li>
+<li><a href="https://docs.python.org/3/tutorial/introduction.html" title="An Informal Introduction to Python" target="_blank">An Informal Introduction to Python</a> (<em>Read up until “3.1.2. Strings” included</em>)</li>
+<li><a href="https://realpython.com/python-f-strings/" title="How To Use String Formatters in Python 3" target="_blank">How To Use String Formatters in Python 3</a> </li>
+<li><a href="https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt" title="Learn to Program" target="_blank">Learn to Program</a> </li>
+<li><a href="https://pypi.org/project/pycodestyle/" title="Pycodestyle -- Style Guide for Python Code" target="_blank">Pycodestyle – Style Guide for Python Code</a> </li>
 </ul>
 
 ## Mandatory tasks
