@@ -9,5 +9,5 @@ for i in range(1, 100):
         result += "Buzz"
     else:
         result += str(i)
-    result += ", "
+    result += " "
 print(result + "Buzz", end='')
