@@ -10,4 +10,4 @@ for i in range(1, 100):
     else:
         result += str(i)
     result += " "
-print(result + "Buzz", end='')
+print(result + "Buzz")
