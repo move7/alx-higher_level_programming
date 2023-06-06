@@ -47,3 +47,13 @@ By the end of this project, we will have a solid understanding of the fundamenta
   * Write a function in C that checks if a singly linked list has a cycle in it
 
 ## Advanced tasks
+
+* **11. Hello, write**
+  * Using the write function from the sys module, print "and that piece of art is useful - Dora Korpar, 2015-10-19," followed by a new line, and exit with a status code of 1.
+  
+* **12. Compile**
+  * Write a script that compiles a Python script file stored in the environment variable $PYFILE.
+  
+* **13. ByteCode -> Python #1**
+  *Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
