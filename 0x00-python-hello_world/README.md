@@ -1,1 +1,49 @@
-#Python - Hello, World
+# Python - Hello, World
+By the end of this project, we will have a solid understanding of the fundamentals of Python programming and how to interact with the shell.
+## Project Objectives
+- Execute Python scripts and code using Bash scripts.
+- Explore different ways to print strings, integers, floats with precision.
+- Print "the Zen of Python" a collection of guiding principles for Python developers, in less than 98 characters.
+- Compile Python script into bytecode.
+- Write python script from bytecode.
+
+## Mandatory tasks
+* **0. Run Python File**
+  * Execute a Python script using the environment variable $PYFILE, which stores the name of the Python file
+
+* **1. Run inline**
+  * Execute Python code stored in the environment variable $PYCODE.
+
+* **2. Hello, print**
+  * Print the phrase ""Programming is like building a multilingual puzzle" followed by a new line.
+
+* **3. Print integer**
+  * Print the integer stored in the variable number, followed by Battery street, followed by a new line.
+
+* **4. Print float**
+  * Print the float stored in the variable number with a precision of 2 digits
+
+* **5. Print string**
+  * Print 3 times a string stored in the variable str, followed by its first 9 characters..
+
+* **6. Play with strings**
+  * Print `Welcome to Holberton School!` using the variables `str1 = "Holberton"` and `str2 = "School"`.
+
+* **7. Copy - Cut - Paste**
+  * Print the variables
+  * `word_first_3`: Contains the first three letters of the variable `word`.
+  * `word_last_2`: Contains the last two letters of the variable `word`.
+  * `middle_word`: Contains the value of the variable `word` without the first and last letters.
+  
+
+* **8. Create a new sentence**
+  * Print `object-oriented
+  programming with Python`, followed by a new line without creating new variables..
+
+* **9. Easter Egg**
+  * Print "The Zen of Python" by Tim Peters, followed by a new line.
+
+* **10. Linked list cycle** (**Technical interview preparation:**)
+  * Write a function in C that checks if a singly linked list has a cycle in it
+
+## Advanced tasks
