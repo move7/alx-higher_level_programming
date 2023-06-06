@@ -71,5 +71,5 @@ In this project, we will explore the concepts of conditionals and loops. We will
 * Prototype: def islower(c):
 * Returns True if c is lowercase, otherwise false.
 * Not allowed to import any module and use str.upper() and str.isupper()
-* <li><a href="https://docs.python.org/3.4/library/functions.html?highlight=ord#ord" title="Learn to Program" target="_blank">Tips: ord()</a> </li>
+* <a href="https://docs.python.org/3.4/library/functions.html?highlight=ord#ord" title="Learn to Program" target="_blank">Tips: ord()</a>
 
