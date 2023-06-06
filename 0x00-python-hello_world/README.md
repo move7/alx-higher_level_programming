@@ -159,6 +159,7 @@ echo "Compiling $PYFILE ..."
   ```
 > **13. ByteCode -> Python #1**
   * Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:.
+  * Tip: <a href="https://docs.python.org/3.4/library/dis.html" title="The Python tutorial" target="_blank">Python bytecode</a>
   ```
   3           0 LOAD_CONST               1 (98)
               3 LOAD_FAST                0 (a)
