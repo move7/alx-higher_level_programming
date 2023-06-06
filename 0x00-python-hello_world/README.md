@@ -17,7 +17,7 @@ By the end of this project, we will have a solid understanding of the fundamenta
 <li><a href="https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt" title="Learn to Program" target="_blank">Learn to Program</a> </li>
 <li><a href="https://pypi.org/project/pycodestyle/" title="Pycodestyle -- Style Guide for Python Code" target="_blank">Pycodestyle – Style Guide for Python Code</a> </li>
 </ul>
-[Google](https://www.google.com/)
+
 ## Mandatory tasks
 * **0. Run Python File**
   * Execute a Python script using the environment variable $PYFILE, which stores the name of the Python file
