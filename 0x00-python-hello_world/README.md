@@ -19,53 +19,145 @@ By the end of this project, we will have a solid understanding of the fundamenta
 </ul>
 
 ## Mandatory tasks
-* **0. Run Python File**
-  * Execute a Python script using the environment variable $PYFILE, which stores the name of the Python file
-
-* **1. Run inline**
+> **0. Run Python File:**
+* Execute a Python script using the environment variable $PYFILE, which stores the name of the Python file
+```
+#!/bin/bash
+python3 $PYFILE
+```
+> **1. Run inline**
   * Execute Python code stored in the environment variable $PYCODE.
+  ```
+  #!/bin/bash
+python3 <<< $PYCODE
+  ```
 
-* **2. Hello, print**
+> **2. Hello, print**
   * Print the phrase ""Programming is like building a multilingual puzzle" followed by a new line.
-
-* **3. Print integer**
+```
+#!/usr/bin/python3
+print("\"Programming is like building a multilingual puzzle")
+  ```
+> **3. Print integer**
   * Print the integer stored in the variable number, followed by Battery street, followed by a new line.
-
-* **4. Print float**
+```
+#!/usr/bin/python3
+number = 98
+print(f"{number:d} Battery street")
+  ```
+  
+> **4. Print float**
   * Print the float stored in the variable number with a precision of 2 digits
-
-* **5. Print string**
+```
+#!/usr/bin/python3
+number = 3.14159
+print(f"Float: {number:.2f}")
+  ```
+  
+> **5. Print string**
   * Print 3 times a string stored in the variable str, followed by its first 9 characters..
-
-* **6. Play with strings**
+```
+#!/usr/bin/python3
+str = "Holberton School"
+print(3*str)
+print(str[:9])
+  ```
+  
+> **6. Play with strings**
   * Print `Welcome to Holberton School!` using the variables `str1 = "Holberton"` and `str2 = "School"`.
-
-* **7. Copy - Cut - Paste**
+```
+#!/usr/bin/python3
+str1 = "Holberton"
+str2 = "School"
+str1 += " "+str2
+print(f"Welcome to {str1}!")
+  ```
+  
+> **7. Copy - Cut - Paste**
   * Print the variables
   * `word_first_3`: Contains the first three letters of the variable `word`.
   * `word_last_2`: Contains the last two letters of the variable `word`.
   * `middle_word`: Contains the value of the variable `word` without the first and last letters.
-  
+  ```
+#!/usr/bin/python3
+word = "Holberton"
+word_first_3 = word[0:3]
+word_last_2 = word[-2:]
+middle_word = word[1:-1]
+print(f"First 3 letters: {word_first_3}")
+print(f"Last 2 letters: {word_last_2}")
+print(f"Middle word: {middle_word}")
+  ```
 
-* **8. Create a new sentence**
+> **8. Create a new sentence**
   * Print `object-oriented
   programming with Python`, followed by a new line without creating new variables..
-
-* **9. Easter Egg**
+```
+#!/usr/bin/python3
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+str = str[39:66] + str[106:112] + str[:6]
+print(str)
+  ```
+  
+> **9. Easter Egg**
   * Print "The Zen of Python" by Tim Peters, followed by a new line.
-
-* **10. Linked list cycle** (**Technical interview preparation:**)
+```
+#!/usr/bin/python3
+import this
+  ```
+  
+> **10. Linked list cycle** (**Technical interview preparation:**)
   * Write a function in C that checks if a singly linked list has a cycle in it
+```
+#include "lists.h"
 
+/**
+ * check_cycle - checks if a linked list contains a cycle
+ * @list: linked list to check
+ *
+ * Return: 1 if the list has a cycle, 0 if it doesn't
+ */
+int check_cycle(listint_t *list)
+{
+	listint_t *slow, *fast;
+	if (!list)
+		return (0);
+
+	slow = list;
+	fast = list->next;
+
+	while (fast && fast->next)
+	{
+		if (fast == slow)
+			return (1);
+		slow = slow->next;
+		fast = fast->next->next;
+	}
+	return (0);
+}
+  ```
+  
 ## Advanced tasks
 
-* **11. Hello, write**
-  * Using the write function from the sys module, print "and that piece of art is useful - Dora Korpar, 2015-10-19," followed by a new line, and exit with a status code of 1.
+> **11. Hello, write**
+  * Using the write function from the sys module, print "and that piece of art is useful - Dora Korpar, 2015-10-19," followed by a new line, and exit with a status code of 
+  ```
+#!/usr/bin/python3
+import sys
+message = "and that piece of art is useful - Dora Korpar, 2015-10-19\n"
+sys.stderr.write(message)
+sys.exit(1)
+  ```
   
-* **12. Compile**
+> **12. Compile**
   * Write a script that compiles a Python script file stored in the environment variable $PYFILE.
-  
-* **13. ByteCode -> Python #1**
+  ```
+#!/bin/bash
+python3 -m compileall -b $PYFILE
+echo "Compiling $PYFILE ..."
+  ```
+> **13. ByteCode -> Python #1**
   * Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:.
   ```
   3           0 LOAD_CONST               1 (98)
@@ -75,4 +167,9 @@ By the end of this project, we will have a solid understanding of the fundamenta
              10 BINARY_ADD
              11 RETURN_VALUE
 ```
-
+```
+def magic_calculation(a, b):
+    result = 98
+    result += a ** b
+    return result
+  ```
