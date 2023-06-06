@@ -7,6 +7,16 @@ By the end of this project, we will have a solid understanding of the fundamenta
 - Compile Python script into bytecode.
 - Write python script from bytecode.
 
+## Resources
+Read or watch:
+- <a href="https://www.google.com/" target="_blank">The Python tutorial (only the first three chapters below)</a>
+- <a href="https://www.google.com/" target="_blank">Whetting Your Appetite</a>
+- <a href="https://www.google.com/" target="_blank">Using the Python Interpreter</a>
+- <a href="https://www.google.com/" target="_blank">An Informal Introduction to Python (Read up until “3.1.2. Strings” included)</a>
+- <a href="https://www.google.com/" target="_blank">How To Use String Formatters in Python 3</a>
+- <a href="https://www.google.com/" target="_blank">Learn to Program</a>
+- <a href="https://www.google.com/" target="_blank">Pycodestyle – Style Guide for Python Code</a>
+
 ## Mandatory tasks
 * **0. Run Python File**
   * Execute a Python script using the environment variable $PYFILE, which stores the name of the Python file
