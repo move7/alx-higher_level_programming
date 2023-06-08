@@ -4,4 +4,5 @@ import hidden_4
 if __name__ == "__main__":
     list_names = sorted(dir(hidden4))
     for name in list_name:
-        print("{}".format(name))
+        if name[0] != "_":
+            print("{}".format(name))
