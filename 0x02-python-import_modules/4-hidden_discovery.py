@@ -2,7 +2,7 @@
 import sys
 import hidden_4
 if __name__ == "__main__":
-    list_names = sorted(dir(hidden4))
+    list_names = dir(hidden4)
     for name in list_name:
         if name[:2] != "__":
             print("{}".format(name))
