@@ -4,4 +4,4 @@ def element_at(my_list, idx):
     if idx in range(length):
         return my_list[idx]
     else:
-        return "NONE"
+        return "None"
