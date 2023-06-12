@@ -20,6 +20,7 @@ int is_palindrome(listint_t **head)
 		slow = slow->next;
 		fast = fast->next->next;
 	}
+	slow->next = NULL;
 	while (slow->next)
 	{
 		next = slow->next;
