@@ -1,0 +1,93 @@
+how to use ``3-say_my_name.py``
+=====================================
+
+Function description:
+---------------------
+    `` say_my_name(first_name, last_name=""):`` prints My name is <first name> <last name>.
+
+Prototype:
+----------
+    ``def say_my_name(first_name, last_name=""):``.
+
+Parametres:
+-----------
+    ``first_name`` and ``last_name`` two strings.
+    last_name is optional
+
+Return:
+-------
+    Nothing.
+
+..Import  say_my_name from the ``3-say_my_name`` module::
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+..check the normal cases::
+==========================
+
+>>> first_name = "Dan"
+>>> last_name = "Brown"
+>>> say_my_name(first_name, last_name)
+My name is Dan Brown
+
+::
+>>> say_my_name(first_name)
+My name is Dan 
+
+
+..check the exception cases::
+==============================
+________________________________
+|...if first_name is not valid::|
+|_______________________________|
+---------------------------------
+
+>>> say_my_name(12, "Taylor")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+::
+
+>>> say_my_name(["Lagrange", "Taylor"], "Taylor")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+::
+
+>>> say_my_name({"Lagrange", "Taylor"}, "Taylor")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+::
+
+>>> say_my_name(None)
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+_______________________________
+|...if last_name is not valid::|
+|______________________________|
+--------------------------------
+
+>>> say_my_name("Lagrange", 12)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+::
+
+>>> say_my_name("Lagrange", ["Lagrange", "Taylor"])
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+::
+
+>>> say_my_name("Lagrange", {"Lagrange", "Taylor"})
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
