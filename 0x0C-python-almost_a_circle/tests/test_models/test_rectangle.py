@@ -29,7 +29,7 @@ class RectangleTest(unittest.TestCase):
         self.assertEqual(r1.id, r2.id - 1)
 
     def test_width(self):
-        self.assertEqual(Rectangle(17, 3).width,17)
+        self.assertEqual(Rectangle(17, 3).width, 17)
 
     def test_rect_float_width(self):
         self.assertEqual(Rectangle(2.3, 4.2).width, 2.3)
@@ -43,14 +43,14 @@ class RectangleTest(unittest.TestCase):
             r1 = Rectangle(-1, 5)
 
     def test_None_width(self):
-         with self.assertRaises(TypeError):
-             r1 = Rectangle(None, 5)
+        with self.assertRaises(TypeError):
+            r1 = Rectangle(None, 5)
 
     """ Height::
     """
 
     def test_height(self):
-        self.assertEqual(Rectangle(17, 3).height,3)
+        self.assertEqual(Rectangle(17, 3).height, 3)
 
     def test_rect_float_height(self):
         self.assertEqual(Rectangle(2.3, 4.2).height, 4.2)
@@ -64,8 +64,8 @@ class RectangleTest(unittest.TestCase):
             r1 = Rectangle(1, -5)
 
     def test_None_width(self):
-         with self.assertRaises(TypeError):
-             r1 = Rectangle(4, None)
+        with self.assertRaises(TypeError):
+            r1 = Rectangle(4, None)
 
     """x::
     """
@@ -123,7 +123,7 @@ class RectangleTest(unittest.TestCase):
     """display::
     """
 
-     def test_display(self):
+    def test_display(self):
         r1 = Rectangle(2, 1)
         with patch('sys.stdout', new=io.StringIO()) as fakeOutput:
             r1.display()
@@ -139,7 +139,7 @@ class RectangleTest(unittest.TestCase):
     """
 
     def test_str(self):
-         r1 = Rectangle(7, 5, 11, 5, 7)
+        r1 = Rectangle(7, 5, 11, 5, 7)
         with patch('sys.stdout', new=io.StringIO()) as fakeOutput:
             print(r1)
         self.assertEqual(fakeOutput.getvalue(), '[Rectangle] (7) 11/5 - 7/5\n')
@@ -185,4 +185,3 @@ class RectangleTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

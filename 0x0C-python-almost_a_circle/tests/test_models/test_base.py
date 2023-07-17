@@ -24,7 +24,7 @@ class TestBase_instantiation(unittest.TestCase):
         b1.id = 13
         self.assertEqual(b1.id, 13)
 
-     def test_list_id(self):
+    def test_list_id(self):
         self.assertEqual([1, 2, 3], Base([1, 2, 3]).id)
 
     def test_bool_id(self):
