@@ -5,7 +5,7 @@ import unittest
 from models.base import Base
 
 
-class TestBase_instantiation(unittest.TestCase):
+class BaseTest(unittest.TestCase):
     """Unittests for the base class"""
 
     def test_idBase(self):
